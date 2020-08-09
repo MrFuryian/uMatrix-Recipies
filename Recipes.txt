@@ -1,6 +1,5 @@
 ! uMatrix: Ruleset recipes
 ! Title: uMatrix Recipes
-! Maintainer: themagicteeth
 !
 ! Assumes the following rules in place:
 !
@@ -15,3 +14,15 @@
 ! Lines starting with character "!" are ignored.
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
+
+Amazon.com *
+    _ 1st-party *
+    _ www.amazon.com cookie 
+    _ ssl-images-amazon.com *
+    _ ssl-images-amazon.com script
+
+Amazon.nl *
+    _ 1st-party *
+    _ www.amazon.nl cookie 
+    _ ssl-images-amazon.nl *
+    _ ssl-images-amazon.nl script
