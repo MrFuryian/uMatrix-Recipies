@@ -1,1 +1,17 @@
-
+! uMatrix: Ruleset recipes
+! Title: uMatrix Recipes
+! Maintainer: themagicteeth
+!
+! Assumes the following rules in place:
+!
+! https-strict: * true
+! no-workers: * true
+! noscript-spoof: * true
+! referrer-spoof: * true
+! * * * block
+! * 1st-party css allow
+! * 1st-party image allow
+!
+! Lines starting with character "!" are ignored.
+! Character "_" is an alias for "currently selected scope".
+! An empty line MUST be used to separate distinct ruleset recipes.
